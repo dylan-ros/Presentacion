@@ -1,0 +1,511 @@
+.custom-btn {
+  background: linear-gradient(90deg, #5A0086, #8C1ACC);
+  color: white;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 50px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.custom-btn:hover {
+  background: linear-gradient(90deg, #4B0071, #7511A9);
+  color: #ffffff;
+  transform: scale(1.05);
+  text-decoration: none;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.nav-link {
+  color: white;
+  background-image: linear-gradient(90deg, #6E00A1, #AA1FF0, #ECCCFF);
+  background-size: 200%;
+  background-position: left;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: background-position 0.5s ease;
+}
+
+.nav-link:hover {
+  background-position: right;
+}
+
+header{
+    background-color: #2d2e2f;
+}
+
+h1{
+    font-size: 125px;
+}
+
+p{
+    font-size: 20px;
+    color: #232028;
+    display: flex;
+    padding-top: 1.5rem;
+}
+.section-trabajo{
+    background-color: #ffffff;
+}
+
+
+
+
+/*.left-side {
+  width: 50%;
+  background-color: #2d2e2f;
+  padding: 2rem;
+}
+
+.right-side {
+  width: 50%;
+  position: relative;
+  clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
+  overflow: hidden;
+}
+
+.right-side .carousel,
+.right-side .carousel-inner,
+.right-side .carousel-item,
+.right-side img {
+  height: 100%;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+  object-position: center;
+}
+*/
+
+.sector-badge {
+  background: linear-gradient(270deg, #6E00A1, #AA1FF0, #ECCCFF);
+  background-size: 400% 400%;
+  animation: gradientBadge 8s ease infinite;
+  color: #fffafa;
+}
+
+@keyframes gradientBadge {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.section-trabajo h4 {
+  font-weight: bold;
+  background: linear-gradient(270deg, #6E00A1, #AA1FF0, #ECCCFF, #6E00A1);
+  background-size: 600% 600%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  animation: gradientMove 15s ease infinite;
+}
+
+.section-trabajo h6 {
+  font-weight: bold;
+  background: linear-gradient(270deg, #6E00A1, #AA1FF0, #ECCCFF, #6E00A1);
+  background-size: 600% 600%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.section-trabajo {
+  background: linear-gradient(to bottom, #ffffff 0%, #f5e8fb 100%);
+  padding: 5rem 0;
+
+
+}
+
+.div-presentacion {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  padding: 0 45px;
+}
+
+.contenido {
+  text-align: left;         /* Alinea texto a la derecha */
+  color: #8d0a5f;
+  max-width: 600px;
+}
+
+
+
+
+.div-presentacion h1 {
+  font-size: 125px;
+  font-weight: bold;
+  background: linear-gradient(270deg, #6E00A1, #AA1FF0, #ECCCFF, #6E00A1);
+  background-size: 600% 600%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  animation: gradientMove 20s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.section-servicios {
+  padding: 2rem 0;
+}
+
+.section-servicios h1 {
+  font-weight: bold;
+  background: linear-gradient(270deg, #6E00A1, #AA1FF0, #ECCCFF, #6E00A1);
+  background-size: 600% 600%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  animation: gradientMove 15s ease infinite;
+}
+
+.experiencia-number {
+  font-size: 4rem;
+  font-weight: bold;
+  background: linear-gradient(270deg, #6E00A1, #AA1FF0, #ECCCFF, #6E00A1);
+  background-size: 600% 600%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  animation: gradientMove 15s ease infinite;
+  margin-bottom: 0.5rem;
+}
+
+.experiencia-text {
+  color: #5A0086;
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.section-servicios {
+  background: linear-gradient(to top, #ffffff 0%, #f5e8fb 100%);
+  padding: 5rem 0;
+}
+
+.section-preguntas {
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.section-preguntas h1 {
+  font-weight: bold;
+  margin-bottom: 2rem;
+  background: linear-gradient(270deg, #6E00A1, #AA1FF0, #ECCCFF, #6E00A1);
+  background-size: 600% 600%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  animation: gradientMove 15s ease infinite;
+}
+
+.section-frecuentes {
+  display: flex;
+  justify-content: center;
+}
+
+.accordion {
+  max-width: 700px;
+  width: 100%;
+  text-align: left;
+}
+
+/* Aumentar tamaño de letra en acordeón */
+.accordion-button {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.accordion-body {
+  font-size: 1.2rem;
+  color: #232028;
+}
+
+
+/* --- FORMULARIO SECTION --- */
+.section-contacto {
+  background: #ffffff;
+  padding: 4rem 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.formulario {
+  max-width: 500px;
+  width: 100%;
+}
+
+.section-contacto h1 {
+  font-weight: bold;
+  margin-bottom: 2rem;
+  background: linear-gradient(270deg, #6E00A1, #AA1FF0, #ECCCFF, #6E00A1);
+  background-size: 600% 600%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientMove 15s ease infinite;
+}
+
+/* --- INPUTS Y TEXTAREA --- */
+.form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #6E00A1;
+  border-radius: 0;
+  color: #232028;
+  font-size: 1rem;
+  padding: 0.75rem 0;
+  margin-bottom: 2rem;
+}
+
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+  border-bottom: 2px solid #AA1FF0;
+  background: transparent;
+  color: #232028;
+}
+
+.form-control::placeholder {
+  color: #555555;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+  opacity: 1;
+}
+
+/* --- BOTÓN --- */
+.btn-submit {
+  display: inline-block;
+  background: transparent;
+  border: none;
+  color: #6E00A1;
+  font-weight: bold;
+  letter-spacing: 2px;
+  position: relative;
+  padding: 0.5rem 2rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.btn-submit::before,
+.btn-submit::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2px;
+  height: 30px;
+  background: linear-gradient(180deg, #6E00A1, #AA1FF0);
+}
+
+.btn-submit::before {
+  left: 0;
+}
+
+.btn-submit::after {
+  right: 0;
+}
+
+.btn-submit:hover {
+  color: #AA1FF0;
+}
+
+
+/* ---- RESPONSIVO ---- */
+
+@media (max-width: 767px) {
+  .div-presentacion {
+    min-height: auto;
+  }
+
+  .experiencia-number {
+    text-align: center;
+  }
+
+  #Inicio img {
+    display: none;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+    line-height: 1.2;
+  }
+
+   .div-presentacion h1 {
+    font-size: 6.5rem;
+  }
+
+  .experiencia-number {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .experiencia-text {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .section-servicios,
+  .section-trabajo,
+  .section-preguntas,
+  .section-contacto {
+    padding: 2rem 1rem;
+  }
+
+  .experiencia-text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .section-servicios .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+   .experiencia-number,
+  .experiencia-text {
+    text-align: center;
+  }
+
+  .section-servicios h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .section-servicios .card {
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+}
+
+
+
+
+/* ---------- MODALES BONITOS ---------- */
+/* ---------- MODALES ESTILO PREMIUM ---------- */
+
+/* Fondo general del modal */
+.modal-content {
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0 0 40px rgba(94, 0, 123, 0.3);
+  border: none;
+  overflow: hidden;
+}
+
+/* Cabecera del modal */
+.modal-header {
+  background: linear-gradient(90deg, #6E00A1, #AA1FF0, #ECCCFF);
+  color: #ffffff;
+  border-bottom: none;
+  padding: 1.5rem;
+}
+
+/* Botón de cierre en blanco */
+.modal-header .btn-close {
+  filter: brightness(0) invert(1);
+}
+
+/* Título del modal */
+.modal-title {
+  font-weight: bold;
+  font-size: 2rem;
+  background: linear-gradient(270deg, #ECCCFF, #AA1FF0, #6E00A1);
+  background-size: 600% 600%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientMove 10s ease infinite;
+}
+
+/* Cuerpo del modal */
+.modal-body {
+  padding: 2rem;
+}
+
+.modal-body p {
+  color: #5A0086;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.modal-body ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.modal-body ul li {
+  background: linear-gradient(90deg, #6E00A1, #AA1FF0);
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  padding: 0.3rem 0;
+}
+
+.modal-body ol {
+  color: #5A0086;
+  font-weight: 500;
+  padding-left: 1.2rem;
+}
+
+.modal-body ol li {
+  margin-bottom: 0.5rem;
+}
+
+/* Footer del modal */
+.modal-footer {
+  border-top: none;
+  background: #f8f0fa;
+  padding: 1.5rem;
+  justify-content: center;
+}
+
+/* Botón en el footer */
+.modal-footer .btn.custom-btn {
+  padding: 0.6rem 2.5rem;
+  font-size: 1rem;
+  border-radius: 50px;
+}
+
+/* Animación de degradado */
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

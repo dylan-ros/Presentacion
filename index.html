@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Aun en proceso</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar fixed-top bg-transparent">
+            <div class="container d-flex justify-content-between align-items-center">
+                <div>
+                    <p class="mb-0 fw-bold">Logo</p>
+                </div>
+
+                <ul class="nav">
+                    <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#Inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#Servicios">Servicios</a>
+                    </li>
+                </ul>
+
+                <div>
+                    <a href="https://wa.me/50255696143?text=%C2%A1Hola%20Dylan!%20Me%20interesa%20una%20p%C3%A1gina%20web." 
+                    class="btn custom-btn" target="_blank">
+                      Contacto
+                    </a>
+                </div>          
+            </div>
+        </nav>
+    </header>
+
+<section id="Inicio">
+  <div class="div-presentacion container-fluid">
+      <div class="row align-items-center justify-content-center min-vh-100">
+      
+      <!-- Columna izquierda (texto) -->
+      <div class="col-md-6 contenido">
+        <h1>Hola! Soy Dylan</h1>
+        <p>Desarrollador web. Ayudo a emprendedores como tú a tener presencia profesional en internet.</p>
+      </div>
+
+      <!-- Columna derecha (imagen) -->
+      <div class="col-md-6 d-flex justify-content-end">
+        <img src="/Images/image1_large.jpg" alt="Imagen Dylan" class="img-fluid" style="max-height: 500px;">
+      </div>
+
+    </div>
+  </div>     
+</section>
+
+<section class="section-trabajo py-5 text-center">
+  <div class="container">
+    <h4 class="text-white mb-4">
+      ¿Diseño web para tu negocio? ¡Sí! Estos son algunos sectores con los que trabajo:
+    </h4>
+    
+    <div class="d-flex flex-wrap justify-content-center gap-3">
+      <span class="badge sector-badge">Reposterías</span>
+      <span class="badge sector-badge">Consultorios</span>
+      <span class="badge sector-badge">Tiendas</span>
+      <span class="badge sector-badge">Salones de belleza</span>
+      <span class="badge sector-badge">Cosméticas</span>
+      <span class="badge sector-badge">Clínicas</span>
+      <span class="badge sector-badge">Escuelas</span>
+    </div>
+    
+    <h6 class="mt-4 fw-bold">Y más</h6>
+  </div>
+</section>
+
+<section id="Servicios" class="section-servicios">
+  <h1 class="text-center mb-4">Mis servicios</h1>
+
+  <div class="container">
+    <div class="row flex-md-column flex-lg-row align-items-center g-4">
+      
+      <!-- Columna izquierda -->
+      <div class="col-md-3 text-md-start text-center">
+        <p class="experiencia-number">2+</p>
+        <p class="experiencia-text">Años de experiencia en Desarrollo web</p>
+      </div>
+
+      <!-- Columna derecha -->
+      <div class="col-md-9">
+        <div class="row g-4">
+          
+          <!-- Card 1 -->
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100 mx-auto">
+              <img src="/Images/Landing.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Landing Page</h5>
+                <p class="card-text">Ideal para negocios que solo necesitan presencia online básica pero elegante.</p>
+                <div class="d-flex justify-content-center">
+                  <a href="#" 
+                     class="btn custom-btn" 
+                     data-bs-toggle="modal" 
+                     data-bs-target="#modalLanding">
+                     más info
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100 mx-auto">
+              <img src="Images/Formulario.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sitio con formulario</h5>
+                <p class="card-text">Sitio completo con varias páginas y un formulario profesional para agendar o recibir mensajes de clientes.</p>
+                <div class="d-flex justify-content-center">
+                  <a href="#"
+                     class="btn custom-btn"
+                     data-bs-toggle="modal"
+                     data-bs-target="#modalFormulario">
+                     más info
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100 mx-auto">
+              <img src="Images/Commerce.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Página E-commerce</h5>
+                <p class="card-text">Sitio con catálogo de productos y botón de compra o contacto para pedidos. Ideal para negocios que quieren vender productos sin complicaciones.</p>
+                <div class="d-flex justify-content-center">
+                  <a href="#"
+                     class="btn custom-btn"
+                     data-bs-toggle="modal"
+                     data-bs-target="#modalEcommerce">
+                     más info
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- MODAL Landing Page -->
+  <div class="modal fade" id="modalLanding" tabindex="-1" aria-labelledby="modalLandingLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalLandingLabel">Landing Page</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <p>Una Landing Page es perfecta para negocios que necesitan una sola página profesional para captar clientes o promocionar un servicio o producto.</p>
+        <ul>
+          <li><strong>Diseño personalizado</strong> acorde a tu marca</li>
+          <li>Optimizada para dispositivos móviles</li>
+          <li>Botones de llamada a la acción (WhatsApp, redes sociales, email)</li>
+          <li>Secciones básicas: Presentación, Servicios o Producto, Testimonios, Contacto</li>
+          <li>Imágenes y colores alineados a tu negocio</li>
+          <li>Integración de formulario de contacto sencillo (opcional)</li>
+        </ul>
+        <p><strong>Incluye:</strong> 1 página única y completa.</p>
+        <p><strong>Precio estimado:</strong> Q800 – Q1,200 (dependiendo de diseño y funcionalidades)</p>
+        <p><strong>¿Cómo trabajamos?</strong></p>
+        <ol>
+          <li>Conversamos sobre tu negocio y estilo visual.</li>
+          <li>Te muestro una maqueta o diseño previo.</li>
+          <li>Realizo los ajustes que necesites.</li>
+          <li>Publicamos tu página online o te la entrego para subirla donde quieras.</li>
+        </ol>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn custom-btn" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <!-- MODAL Formulario -->
+<div class="modal fade" id="modalFormulario" tabindex="-1" aria-labelledby="modalFormularioLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalFormularioLabel">Sitio con Formulario</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <p>Un <strong>Sitio con Formulario</strong> es ideal para negocios que necesitan un sitio más completo, con varias secciones y la posibilidad de que los usuarios envíen consultas o solicitudes.</p>
+        <ul>
+          <li><strong>Diseño profesional</strong> con estilo coherente en todas las páginas</li>
+          <li>Optimizado para celulares y tablets</li>
+          <li>Incluye entre <strong>3 y 5 páginas</strong> (Inicio, Nosotros, Servicios, Galería, Contacto, etc.)</li>
+          <li>Formulario de contacto o de reservas/citas con envío a tu correo o WhatsApp</li>
+          <li>Botones de redes sociales</li>
+          <li>Integración de mapas, testimonios u otras secciones personalizadas</li>
+        </ul>
+        <p><strong>Incluye:</strong> de 3 a 5 páginas internas y 1 formulario.</p>
+        <p><strong>Precio estimado:</strong> Q1,300 – Q2,200 (dependiendo de la cantidad de secciones y funcionalidades)</p>
+        <p><strong>¿Cómo trabajamos?</strong></p>
+        <ol>
+          <li>Charlamos sobre tu negocio y lo que deseas mostrar.</li>
+          <li>Te diseño un esquema y diseño previo para tu aprobación.</li>
+          <li>Construyo el sitio con las secciones que necesites.</li>
+          <li>Te enseño avances y ajustamos lo necesario.</li>
+          <li>Publicamos tu sitio online o te lo entrego para tu hosting.</li>
+        </ol>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn custom-btn" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- MODAL E-commerce -->
+  <div class="modal fade" id="modalEcommerce" tabindex="-1" aria-labelledby="modalEcommerceLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalEcommerceLabel">Página E-commerce</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <p>Una Página E-commerce te permite vender productos o servicios en línea, mostrando tu catálogo de forma profesional y permitiendo a tus clientes comprar o contactarte directamente.</p>
+        <ul>
+          <li><strong>Diseño personalizado</strong> para tu tienda</li>
+          <li>Catálogo de productos con fotos y descripciones</li>
+          <li>Botón de compra directa o contacto para pedidos</li>
+          <li>Optimización para dispositivos móviles</li>
+          <li>Posibilidad de incluir carrito de compras (dependiendo del alcance)</li>
+          <li>Integración con WhatsApp para pedidos rápidos</li>
+          <li>Incluye de <strong>5 a 10 páginas</strong> (Inicio, Productos, Categorías, Contacto, etc.)</li>
+        </ul>
+        <p><strong>Incluye:</strong> de 5 a 10 páginas, catálogo de productos y configuración básica de pedidos.</p>
+        <p><strong>Precio estimado:</strong> Q3,000 – Q6,000 (dependiendo de la cantidad de productos y funcionalidades)</p>
+        <p><strong>¿Cómo trabajamos?</strong></p>
+        <ol>
+          <li>Analizamos tu negocio y productos a mostrar.</li>
+          <li>Te muestro un diseño inicial para aprobarlo.</li>
+          <li>Cargo los productos e imágenes que me proporciones.</li>
+          <li>Probamos la funcionalidad (carrito, botón de compra, etc.).</li>
+          <li>Publicamos tu tienda online o te entrego los archivos listos para subir.</li>
+        </ol>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn custom-btn" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</section>
+
+<section class="section-preguntas">
+  <h1>Preguntas frecuentes</h1>
+  <div class="section-frecuentes">
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        ¿Cúal es el precio de una página web?
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body"><strong>El precio depende del tipo de página que necesites: </strong> 
+        <ul>
+          <li>Un sitio web con varias secciones y funcionalidades puede empezar desde Q1,800.
+              Siempre hago un presupuesto personalizado según tu proyecto y tus necesidades.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        ¿Cúal es el proceso de trabajo?
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body"><strong>Mi proceso es rápido y sencillo:</strong>
+        <ul>
+          <li>
+            Conversamos sobre tu negocio y lo que buscás.
+          </li>
+          <li>
+            Te muestro un diseño de ejemplo o maqueta.
+          </li>
+          <li>
+            Hago los ajustes que necesites.
+          </li>
+          <li> 
+            Desarrollamos tu página y la publico en línea.
+            Siempre estoy en contacto para que sepas cómo va todo.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        ¿Ofreces servicios de mantenimiento?
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body"><strong>¡Sí! Puedo ayudarte a mantener tu página actualizada:</strong>
+        <ul>
+          <li>Cambios de texto o imágenes</li>
+          <li>Mejorar la seguridad de tu sitio
+              El servicio de mantenimiento tiene un costo accesible y se adapta a lo que necesites.
+            </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+        ¿Cúal es el tiempo de espera?
+      </button>
+    </h2>
+    <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Una Landing Page sencilla puede estar lista en 3 a 5 días.
+          Un sitio web más completo puede tardar entre 7 y 15 días, dependiendo de la complejidad y los cambios que quieras hacer. Siempre trato de entregar lo más rápido posible, sin sacrificar calidad.</div>
+    </div>
+  </div>
+</div>
+  </div>
+</section>
+
+<section class="section-contacto" id="Contacto">
+  <h1>Contáctame!</h1>
+  <div class="formulario">
+    <form action="https://formspree.io/f/xnnvrnrr" method="POST">
+  <div class="mb-3">
+    <input type="text" name="Nombre" class="form-control" placeholder="Ingresa tu nombre*" required>
+  </div>
+  <div class="mb-3">
+    <input type="email" name="Correo" class="form-control" placeholder="Ingresa tu email*" required>
+  </div>
+  <div class="mb-3">
+    <textarea name="Mensaje" class="form-control" rows="3" placeholder="Tu mensaje*" required></textarea>
+  </div>
+  <button type="submit" class="btn custom-btn mt-3">Enviar</button>
+</form>
+
+  </div>
+</section>
+
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+      <script src="script.js"></script>
+    </body>
+</html>
